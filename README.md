@@ -92,9 +92,12 @@ Add screenshots: [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md) · `docs/images/`
 
 ## Requirements
 
-- **SUNO account** (suno.com)
-- **Cursor** recommended — or any AI assistant + text editor
-- **Optional:** [sunoapi.org](https://sunoapi.org) API key for `studio-suno` CLI
+- **Cursor** recommended — or any AI assistant + text editor (for the Markdown studio workflow)
+- **To generate audio**, use one path — they are **not** the same service or linked accounts:
+  - **Default:** [suno.com](https://suno.com) — copy-paste prompts from your track files into the Suno UI
+  - **Optional:** [sunoapi.org](https://sunoapi.org) account + API key — for the `studio-suno` CLI only (third-party API, not Suno's official app)
+
+You do not need both. Most users only need suno.com.
 
 ---
 

@@ -176,7 +176,10 @@ Spec: [album_orchestrator.md](00_system/album_orchestrator.md).
 ## FAQ
 
 **Do I need the API?**  
-No. Copy-paste to SUNO UI is the default path.
+No. Copy-paste to [suno.com](https://suno.com) is the default path.
+
+**Are suno.com and sunoapi.org the same?**  
+No. sunoapi.org is a **third-party** API used only by the optional `studio-suno` CLI. Separate signup, separate billing — not linked to your Suno app account.
 
 **Can I use ChatGPT instead of Cursor?**  
 Yes. Paste `AGENTS.md`, `commands.md`, and mandatory reads into context. Slash commands still work as instructions.
