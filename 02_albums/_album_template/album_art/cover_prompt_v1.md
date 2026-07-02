@@ -13,13 +13,13 @@ Guide: `01_artist/cover_design_guide.md`
 
 - **Title:**
 - **Format:** album / single
-- **Cover family:** enough / harvest / nature-trust / single-photo / new
+- **Cover family:** gentle-landscape / documentary-photo / custom / new
 - **Story in one line:**
 
-## Sun role
+## Visual anchor
 
-- **Form:**
-- **Meaning:**
+- **Form:** _[what the eye returns to — from visual_direction.md]_
+- **Meaning:** _[why it fits this album]_
 
 ## Scene & composition
 

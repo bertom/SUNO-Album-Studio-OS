@@ -6,14 +6,14 @@ Guide: `01_artist/cover_design_guide.md`
 
 ---
 
-## Family presets
+## Family presets *(optional starting points)*
 
-Pick one starting point from `04_templates/`:
+Pick one from `04_templates/`, or define your own — see `01_artist/cover_design_guide.md`.
 
 | Family | Template | Best for |
 |--------|----------|----------|
-| Nature / trust | `cover_prompt_nature_trust.md` | Gentle, hopeful, child-safe |
-| Single photo | `cover_prompt_single_photo.md` | Singles, live moment |
+| Gentle landscape | `cover_prompt_gentle_landscape.md` | Calm, open, hopeful |
+| Documentary photo | `cover_prompt_documentary_photo.md` | Singles, live moment |
 | Custom | This template | Build from album `visual_direction.md` |
 
 ---

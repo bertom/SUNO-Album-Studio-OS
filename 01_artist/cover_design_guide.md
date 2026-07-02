@@ -9,15 +9,23 @@ Generic principles for album art. Each release gets its own identity — don't c
 3. **Text in post when possible** — generate image without typography; add title and artist name in design tool.
 4. **Warm, human, not stock** — avoid wellness clichés, religious iconography, glossy pop aesthetic, neon cyber.
 
-## Cover prompt families
+## Cover prompt families *(examples — not a fixed menu)*
 
-Templates in `04_templates/`:
+The templates in `04_templates/` are **starter scaffolds**, not rules. Every artist's visual taste differs.
 
-| Family | Template | Best for |
-|--------|----------|----------|
-| Nature / trust | `cover_prompt_nature_trust.md` | Gentle, hopeful, child-safe, oneness |
-| Single photo | `cover_prompt_single_photo.md` | Singles, live moment, documentary feel |
-| Custom | `cover_prompt_template.md` | Build from scratch |
+**You can:**
+- Use a preset as-is, then fill from `visual_direction.md`
+- **Edit** a preset file to match your recurring look (e.g. always typographic, always illustrated)
+- **Add** your own family — e.g. `04_templates/cover_prompt_brutalist_type.md` — and reference it from this guide
+- Skip families entirely and use `cover_prompt_template.md` per album
+
+Document your go-to families in **Your visual preferences** below so agents stop guessing.
+
+| Family *(example)* | Template | Starting point for |
+|--------------------|----------|-------------------|
+| Gentle landscape | `cover_prompt_gentle_landscape.md` | Calm, open, hopeful |
+| Documentary photo | `cover_prompt_documentary_photo.md` | Singles, live moment, real photo |
+| Custom | `cover_prompt_template.md` | One-off or new family from scratch |
 
 ## Workflow
 

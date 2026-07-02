@@ -490,11 +490,11 @@ cd 06_integrations/suno && ./studio-suno wav <track> --run 003 --take a
 
 **Output:** Filled brief in `album_art/cover_prompt_vN.md` + copy-paste **Image prompt** and **Negative prompt** blocks.
 
-**Read:** `01_artist/cover_design_guide.md`, `visual_direction.md`, `album_art/visual_direction.md`, `04_templates/cover_prompt_template.md`, matching family preset (`cover_prompt_nature_trust.md` / `cover_prompt_single_photo.md`)
+**Read:** `01_artist/cover_design_guide.md`, `visual_direction.md`, `album_art/visual_direction.md`, `04_templates/cover_prompt_template.md`, matching family preset (`cover_prompt_gentle_landscape.md` / `cover_prompt_documentary_photo.md`)
 
 **Update:** `album_art/cover_prompt_vN.md` (new version file)
 
-**Guardrails:** Always name the sun's form. Match cover family to album identity — do not default to nature-trust for every project. Singles use single-photo family unless the user asks for concept art. No religious iconography. Typography usually post-production — omit readable text from image prompts unless exploring type-in-image.
+**Guardrails:** Define visual anchor from `visual_direction.md` — do not reuse another album's layout. Match cover family to album identity; singles often use documentary-photo unless the brief says otherwise. No religious iconography. Typography usually post-production — omit readable text from image prompts unless exploring type-in-image.
 
 ---
 

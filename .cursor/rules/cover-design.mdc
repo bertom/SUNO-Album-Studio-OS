@@ -10,16 +10,14 @@ Command: `/cover prompt` in `00_system/commands.md`
 
 ## Principles
 
-Each cover has **its own identity** — read album `visual_direction.md`; don't clone one layout onto another.
-
-Optional visual anchor (sun, horizon, figure) — define per album in visual direction.
+Each cover has **its own identity** — read album `visual_direction.md`; families are starting scaffolds, not copies.
 
 ## Families (pick one)
 
 | Family | Template | Best for |
 |--------|----------|----------|
-| Nature / trust | `cover_prompt_nature_trust.md` | Gentle, hopeful, child-safe |
-| Single photo | `cover_prompt_single_photo.md` | Singles, live moment |
+| Gentle landscape | `cover_prompt_gentle_landscape.md` | Calm, open, hopeful — fill from visual direction |
+| Documentary photo | `cover_prompt_documentary_photo.md` | Singles, live moment, real photo |
 | Custom | `cover_prompt_template.md` | Build from scratch |
 
 Master structure: `04_templates/cover_prompt_template.md`.
