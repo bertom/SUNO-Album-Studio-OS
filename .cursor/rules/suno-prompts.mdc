@@ -1,0 +1,46 @@
+---
+description: SUNO prompt packages — 8-field structure, hygiene, versioning
+globs: "**/suno/**,**/*suno*,04_templates/suno*.md,00_system/suno*.md"
+alwaysApply: false
+---
+
+# SUNO Prompt Rules
+
+Authoritative guide: `00_system/suno_song_preparation_guide_v2.md`  
+Context routing: `00_system/mandatory_reads.md` — `/suno`, `/suno validate`  
+Template: `04_templates/suno_package_template.md`
+
+## When `/suno` or editing suno files
+
+1. Read mandatory files per `mandatory_reads.md` (`/suno` section).
+2. Read `song_brief.md`, latest `lyrics/lyrics_v*.md`, `suno/style_directions.md`.
+3. Output **exact 8-field order** from the SUNO guide.
+4. Run **`/suno validate`** before delivering finals.
+5. Deliver copy-paste blocks **only** when the user wants finals — no commentary inside fields.
+
+## Hard rules
+
+- **No references SUNO cannot know** in fenced fields — no artist names, no project/album shorthand, no direction labels (A/B/C). Translate studio language to concrete musical terms. See guide § "Avoid References SUNO Cannot Know."
+- **No artist names** in Styles or prompts — concrete musical language only.
+- **Positive Styles** — put exclusions in **Exclude styles**, not Styles.
+- Version files: `suno_prompt_vN.md` — never overwrite; finals → `final_suno_fields.md`.
+- HTML comment metadata goes **outside** SUNO fields (prompt version, date, hypothesis, studio/album shorthand).
+
+## Document after runs
+
+Update `suno_runs.md`, `analysis/listening_notes.md`, link audio filename to run ID.
+
+Style direction context: `01_artist/style_reference_summary.md`, `01_artist/style_reference.md`.
+
+## API generation (optional)
+
+When the user asks to generate via API, use the CLI in `06_integrations/suno/`:
+
+```bash
+cd 06_integrations/suno && ./studio-suno validate <track>
+cd 06_integrations/suno && ./studio-suno generate <track> [--dry-run]
+```
+
+Slash commands: `/suno validate`, `/suno run`, `/suno status`, `/suno wav` — see `00_system/commands.md`.
+
+Manual copy-paste to the Suno UI remains valid. Never skip storing a prompt version before generating.

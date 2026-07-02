@@ -1,0 +1,31 @@
+---
+description: Markdown naming, versioning, tone, and documentation hygiene
+globs: "**/*.md"
+alwaysApply: false
+---
+
+# Documentation Rules
+
+Full spec: `00_system/documentation_rules.md`
+
+## Naming
+
+- Slugs: hyphens, lowercase (`track-slug`)
+- Drafts: `lyrics_vN.md`, `suno_prompt_vN.md`, `cover_prompt_vN.md`
+- Finals: `lyrics_final.md`, `final_suno_fields.md`, `final_style.md`
+
+No `notes2.md`, `final_final.md`.
+
+## Writing
+
+- One source of truth per fact — link, don't duplicate.
+- Warm but structured — e.g. *"Run 4 had the body; vocal still theatrical — lower weirdness on retry."*
+- Learning entries: context, observation, action, scope, type (see `04_templates/learning_entry_template.md`).
+
+## Agent checklist after sessions
+
+- [ ] Status fields and `track_map.md` match reality
+- [ ] New versions numbered, not overwritten
+- [ ] Listening notes linked to audio filename
+- [ ] Reusable patterns → `03_global_learnings/`
+- [ ] No artist names added to SUNO prompts

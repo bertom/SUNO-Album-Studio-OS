@@ -1,0 +1,36 @@
+---
+description: Cover art prompts — families, workflow, guardrails
+globs: **/album_art/**,**/cover_prompt*.md,**/visual_direction.md
+---
+
+# Cover Design Rules
+
+Guide: `01_artist/cover_design_guide.md`  
+Command: `/cover prompt` in `00_system/commands.md`
+
+## Principles
+
+Each cover has **its own identity** — read album `visual_direction.md`; don't clone one layout onto another.
+
+Optional visual anchor (sun, horizon, figure) — define per album in visual direction.
+
+## Families (pick one)
+
+| Family | Template | Best for |
+|--------|----------|----------|
+| Nature / trust | `cover_prompt_nature_trust.md` | Gentle, hopeful, child-safe |
+| Single photo | `cover_prompt_single_photo.md` | Singles, live moment |
+| Custom | `cover_prompt_template.md` | Build from scratch |
+
+Master structure: `04_templates/cover_prompt_template.md`.
+
+## Workflow
+
+1. Read album `visual_direction.md` + `album_art/visual_direction.md` + `cover_notes.md`.
+2. Write `album_art/cover_prompt_vN.md` (new version, don't overwrite).
+3. Output copy-paste **Image prompt** + **Negative prompt** — usually **no text in image gen** (type in post).
+4. Final chosen cover → `cover.png`; document why in `cover_notes.md`.
+
+## Avoid on all covers
+
+Religious iconography, stock wellness clichés, glossy pop, neon/cyber, random concept art that doesn't match the album's story.

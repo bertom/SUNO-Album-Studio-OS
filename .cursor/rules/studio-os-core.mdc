@@ -1,0 +1,51 @@
+---
+description: SUNO Album Studio OS — project identity, layout, and agent defaults
+alwaysApply: true
+---
+
+# SUNO Album Studio OS
+
+Markdown-first creative OS for **any musician** — SUNO albums, archive, learnings. Not a code app.
+
+> Albums may change clothes; the body must remain recognizable.
+
+## Read first
+
+| Task | Start here |
+|------|------------|
+| Any session | `00_system/project_instructions.md`, `README.md` |
+| First run | `ONBOARDING.md` → `/onboard artist` |
+| Slash command | `00_system/commands.md` + `00_system/mandatory_reads.md` for that command |
+| Orchestrate album | `00_system/album_orchestrator.md` + `mandatory_reads.md` (orchestrator) |
+| Creative identity | `01_artist/artist_dna.md` |
+| User feedback words | `01_artist/feedback_dictionary.md` |
+
+## Repo map
+
+```text
+00_system/     workflow, commands, SUNO guide
+01_artist/     DNA, style reference, cover guide
+02_albums/     one folder per album (_album_template for new)
+03_global_learnings/
+04_templates/
+05_catalog/
+06_integrations/  optional studio-suno CLI
+```
+
+Album slugs: lowercase hyphens (`my-album`, `track-slug`). No `references/` folder — docs live in place.
+
+## Non-negotiables
+
+1. Identity over genre — artist body stays recognizable across albums.
+2. Life beats concept — reject dead music even if the idea is right.
+3. One song at a time — depth over batch work.
+4. Prefer **updating existing Markdown** over new files.
+5. Know workflow phase (`00_system/workflow.md`) — don't jump to SUNO before a song brief unless the user asks.
+6. Warm, human tone — creative partner, not compliance docs.
+7. No git commits unless the user asks.
+
+## Protect / avoid
+
+Read from `01_artist/artist_identity.md` after onboarding. Typical defaults: warmth, sincerity, organic instruments, lived insight.
+
+Avoid: genre cosplay, moralizing, self-help tone, synthetic gloss, over-engineering the repo.

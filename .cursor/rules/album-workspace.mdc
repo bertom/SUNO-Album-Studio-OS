@@ -1,0 +1,34 @@
+---
+description: Album folder layout, track status, archive requirements
+globs: 02_albums/**
+---
+
+# Album Workspace Rules
+
+Index: `02_albums/README.md`. New album: copy `_album_template/` → `02_albums/<slug>/`.
+
+## Input folder
+
+`input/` — user drops raw text here. Orchestrator reads only (see `input/README.md`, `/orchestrate album`).
+
+## Active album minimum
+
+Always keep current: `album.md`, `track_map.md`, `conclusions/album_direction_decisions.md`.
+
+## Track folder (`tracks/<slug>/`)
+
+Develop **one track at a time**. Status in `track.md` / `track_map.md`:
+
+`idea` → `pool` → `briefed` → `lyrics` → `suno` → `shortlist` → `final` | `cut` | `hold`
+
+## Final track archive
+
+Must have: `song_brief.md`, `lyrics/lyrics_final.md`, `suno/final_suno_fields.md`, `metadata/final_style.md`, `metadata/track_metadata.md`, `analysis/final_selection_reason.md`, final audio in `audio/`.
+
+## One source of truth
+
+- Final lyrics → `lyrics_final.md` only (don't duplicate across files).
+- Link audio ↔ prompt version ↔ listening notes.
+- Link to `album.md` / dossier — don't paste full album docs into track files.
+
+After meaningful sessions: update status fields, `track_map.md`, extract learnings to `learnings/` or `03_global_learnings/` if reusable.

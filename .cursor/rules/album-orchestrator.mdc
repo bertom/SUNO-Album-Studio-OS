@@ -1,0 +1,21 @@
+---
+description: Album Orchestrator — full draft from input/
+globs: 02_albums/**/input/**,**/orchestrator_report.md
+---
+
+# Album Orchestrator
+
+When the user runs `/orchestrate album` or asks to orchestrate/draft an album from input:
+
+1. Read `00_system/mandatory_reads.md` (orchestrator section) and `00_system/album_orchestrator.md` — follow fully
+2. Read all files in `02_albums/<album>/input/` (read only — do not copy into brainstorms)
+3. Execute phases 1–7 end to end; stop at `suno_prompt_v1.md` per track — **no `/suno run`**
+4. One agent, role-switching per `00_system/agent_roles.md`; state handoffs explicitly
+5. **Album cohesion:** one story, one identity, variety in energy/rhythm/vocal/palette — not a song collection
+6. **Identity Guardian** at album world, song pool, every track, and final album check
+7. Develop tracks **one at a time** with full depth; document brainstorms, conclusions, learnings as you go
+8. Write `orchestrator_report.md` when done; set `album.md` status → `draft-ready`
+
+Bootstrap: copy `_album_template/` if folder missing; slug lowercase hyphens; title may change later.
+
+Default language: English. Track count: usually 8–16, let the story decide.

@@ -1,0 +1,17 @@
+# Copy to config.yaml and customize. config.yaml is gitignored if you add secrets here.
+
+api_base_url: https://api.sunoapi.org
+callback_url: https://localhost/noop
+
+# Latest sunoapi.org model; override per album in 02_albums/<album>/suno_config.yaml
+default_model: V5_5
+poll_interval_seconds: 20
+poll_timeout_seconds: 600
+
+credit_warning_threshold: 10
+
+# Character limits by model family (V4_5+ / V5)
+limits:
+  prompt_max: 5000
+  style_max: 1000
+  title_max: 100
