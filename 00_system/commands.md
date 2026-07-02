@@ -1,6 +1,6 @@
 # Studio Commands
 
-Slash-style commands for use with Cursor agents or any AI assistant. Each command should read listed files, produce stated outputs, and update documented files.
+Slash-style commands for use with Cursor agents or any AI assistant — **type in chat** (e.g. `/suno validate on track X`). Not Cursor's native `/` command picker unless you add `.cursor/commands/` yourself. Each command should read listed files, produce stated outputs, and update documented files.
 
 **Global rules for all commands:**
 - Read `00_system/project_instructions.md` if context is missing

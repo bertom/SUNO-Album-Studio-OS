@@ -10,7 +10,7 @@ This repo is a **Markdown creative studio**, not an application codebase. Agents
 4. `00_system/workflow.md` — 12-phase creative cycle
 5. `00_system/album_orchestrator.md` — full-album draft from `input/`
 
-Cursor rules in `.cursor/rules/` reinforce the above when relevant files are open.
+Cursor: `.cursor/rules/` reinforce the above — core rule always on; SUNO/orchestrator rules when matching files are open. Slash commands are chat instructions in `commands.md` (type them explicitly). No `.cursor/skills/` in this repo.
 
 **First-run users:** run **`/onboard artist`** before album work — see `ONBOARDING.md`.
 

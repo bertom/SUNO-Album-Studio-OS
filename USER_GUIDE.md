@@ -29,7 +29,7 @@ You don't need to be a developer. You need SUNO, a text editor, and (recommended
 1. **Clone** this repo and open it in Cursor.
 2. **Paste** the prompt from [ONBOARDING.md](ONBOARDING.md) into a new agent chat.
 3. Complete **`/onboard artist`** — fills `01_artist/` with your DNA.
-4. **Start an album:** run **`/album seed`** *or* copy `02_albums/_album_template/` to `02_albums/my-album/`, drop notes in `input/`, run **`/orchestrate album`**.
+4. **Start an album:** copy `02_albums/_album_template/` to `02_albums/my-album/`, drop any writing in `input/`, run **`/orchestrate album`** — turns your notes into a story album with lyrics and SUNO prompts ready for review. (Or run **`/album seed`** first for a slower manual path.)
 
 Next: develop one track at a time → **`/suno validate`** → generate in SUNO → **`/listen`** → **`/select final`**.
 
@@ -53,20 +53,20 @@ Deep map: [README.md](README.md#repository-map).
 
 ## The 12 phases (you are here)
 
-| Phase | Plain language | Typical command |
-|-------|----------------|-----------------|
-| 1 Album Seed | Life moment → album question | `/album seed` |
-| 2 Album World | Identity, arc, sound, visual | `/album world` |
-| 3 Brainstorm | Capture everything, no filter | `/brainstorm` |
-| 4 Distillation | Decide, reject, open questions | `/distill brainstorm` |
-| 5 Song Pool | Candidates with roles | `/song pool` |
+| Phase              | Plain language                    | Typical command                               |
+| ------------------ | --------------------------------- | --------------------------------------------- |
+| 1 Album Seed       | Life moment → album question      | `/album seed`                                 |
+| 2 Album World      | Identity, arc, sound, visual      | `/album world`                                |
+| 3 Brainstorm       | Capture everything, no filter     | `/brainstorm`                                 |
+| 4 Distillation     | Decide, reject, open questions    | `/distill brainstorm`                         |
+| 5 Song Pool        | Candidates with roles             | `/song pool`                                  |
 | 6 Song Development | One track: brief → lyrics → style | `/song brief`, `/lyrics`, `/style directions` |
-| 7 SUNO Run Cycle | Generate, log, listen, retry | `/suno`, `/suno run`, `/listen`, `/retry` |
-| 8 Final Selection | Pick the keeper | `/select final` |
-| 9 Album Assembly | Cohesion, variation map | `/album check`, `/update track map` |
-| 10 Archive & Learn | Finals + learnings | `/archive track`, learning entries |
-| 11 Release Prep | Pitch, metadata, cover | `/cover prompt`, release templates |
-| 12 Catalog Review | Discography, style index | `/catalog review`, `/backfill catalog` |
+| 7 SUNO Run Cycle   | Generate, log, listen, retry      | `/suno`, `/suno run`, `/listen`, `/retry`     |
+| 8 Final Selection  | Pick the keeper                   | `/select final`                               |
+| 9 Album Assembly   | Cohesion, variation map           | `/album check`, `/update track map`           |
+| 10 Archive & Learn | Finals + learnings                | `/archive track`, learning entries            |
+| 11 Release Prep    | Pitch, metadata, cover            | `/cover prompt`, release templates            |
+| 12 Catalog Review  | Discography, style index          | `/catalog review`, `/backfill catalog`        |
 
 Full detail: [workflow.md](00_system/workflow.md).
 
@@ -76,26 +76,26 @@ Full detail: [workflow.md](00_system/workflow.md).
 
 ## Slash commands cheat sheet
 
-| Command | When to use | What you get |
-|---------|-------------|--------------|
-| `/onboard artist` | First run | Filled `01_artist/` scaffold |
-| `/album seed` | New album from a life seed | Draft `album.md` |
-| `/orchestrate album` | Raw notes in `input/` | Full draft album through SUNO prompts |
-| `/album world` | Define album identity | identity, arc, palette, visual docs |
-| `/song brief` | Start one track | `song_brief.md` |
-| `/lyrics` | Write or revise lyrics | Versioned `lyrics_vN.md` |
-| `/style directions` | Groove + production plan | `style_directions.md` |
-| `/suno` | Build 8-field SUNO package | `suno_prompt_vN.md` |
-| `/suno validate` | Before every SUNO run | Hygiene check (no API) |
-| `/suno run` | API generation | MP3s via CLI |
-| `/listen` | After a run | Structured listening notes |
-| `/retry` | Fix a failed run | Adjusted prompt + learning draft |
-| `/select final` | Choose keeper | Final docs + metadata |
-| `/archive track` | Lock a winner | Catalog-ready archive |
-| `/backfill catalog` | Import old SUNO work | Rows in `best_suno_outputs.md` |
-| `/album check` | Before calling album done | Cohesion rubric |
-| `/cover prompt` | Album art direction | `cover_prompt_vN.md` |
-| `/catalog review` | Between projects | Updated discography |
+| Command              | When to use                | What you get                                                                                               |
+| -------------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `/onboard artist`    | First run                  | Filled `01_artist/` scaffold                                                                               |
+| `/album seed`        | New album from a life seed | Draft `album.md`                                                                                           |
+| `/orchestrate album` | Any writing in `input/`    | Story-driven draft album — full workflow via specialized studio roles, through SUNO prompts (no audio yet) |
+| `/album world`       | Define album identity      | identity, arc, palette, visual docs                                                                        |
+| `/song brief`        | Start one track            | `song_brief.md`                                                                                            |
+| `/lyrics`            | Write or revise lyrics     | Versioned `lyrics_vN.md`                                                                                   |
+| `/style directions`  | Groove + production plan   | `style_directions.md`                                                                                      |
+| `/suno`              | Build 8-field SUNO package | `suno_prompt_vN.md`                                                                                        |
+| `/suno validate`     | Before every SUNO run      | Hygiene check (no API)                                                                                     |
+| `/suno run`          | API generation             | MP3s via CLI                                                                                               |
+| `/listen`            | After a run                | Structured listening notes                                                                                 |
+| `/retry`             | Fix a failed run           | Adjusted prompt + learning draft                                                                           |
+| `/select final`      | Choose keeper              | Final docs + metadata                                                                                      |
+| `/archive track`     | Lock a winner              | Catalog-ready archive                                                                                      |
+| `/backfill catalog`  | Import old SUNO work       | Rows in `best_suno_outputs.md`                                                                             |
+| `/album check`       | Before calling album done  | Cohesion rubric                                                                                            |
+| `/cover prompt`      | Album art direction        | `cover_prompt_vN.md`                                                                                       |
+| `/catalog review`    | Between projects           | Updated discography                                                                                        |
 
 Full specs: [commands.md](00_system/commands.md).
 
@@ -104,11 +104,11 @@ Full specs: [commands.md](00_system/commands.md).
 ## Working with AI
 
 1. Point the agent at **[AGENTS.md](AGENTS.md)** — entry point for cold sessions.
-2. Use **slash commands** instead of vague requests ("run `/suno validate` on track X").
+2. Use **slash commands** instead of vague requests ("run `/suno validate` on track X"). These are workflow instructions you **type in chat** — spec in [commands.md](00_system/commands.md), not Cursor's built-in `/` picker.
 3. **One song at a time** — depth beats batch-generating an album in SUNO.
 4. Agents must read **[mandatory_reads.md](00_system/mandatory_reads.md)** for your current command — not optional.
 
-Cursor users: rules in `.cursor/rules/` apply automatically when relevant files are open.
+**In Cursor:** `.cursor/rules/` adds context automatically — core studio behavior is always on; SUNO and orchestrator rules attach when matching files are open (e.g. `tracks/<slug>/suno/`). No project Skills — if behavior feels generic, name the command explicitly or open the relevant file.
 
 ---
 
@@ -159,17 +159,73 @@ Winners become future reference:
 
 ---
 
-## Orchestrated album
+## Orchestrated album — writing to story album
 
-For a full draft from messy notes:
+The fastest path from messy human material to a cohesive draft album. You are not batch-generating songs in SUNO — you are turning **whatever you already wrote** into an album that **tells one story**, with every decision documented in Markdown.
+
+### What goes in `input/`
+
+Anything readable: `.md`, `.txt`, or similar. No required structure.
+
+- Diary or journal fragments
+- Poems, prose, essay scraps
+- Voice memos (transcribed)
+- Half-finished lyrics or chorus lines
+- Tracklist sketches, themes, audience notes
+- Ideas you already rejected — still useful context
+
+The `input/` folder is **read-only for agents**. Your originals stay untouched; the orchestrator builds new studio documents from them.
+
+### What happens when you run `/orchestrate album`
+
+One agent runs the **complete 12-phase workflow** inline — the same steps you would run manually with `/album seed`, `/album world`, `/brainstorm`, and so on — but coordinated end to end. It switches between **specialized studio roles** ([agent_roles.md](00_system/agent_roles.md)) and states each handoff out loud:
+
+| Role                     | What it does during orchestration                                 |
+| ------------------------ | ----------------------------------------------------------------- |
+| **Album Orchestrator**   | Coordinates everything; bootstraps folder if needed               |
+| **Album Architect**      | Seed, album world, track pool, final assembly and `/album check`  |
+| **Brainstorm Distiller** | Capture session from `input/`, then distill into conclusions      |
+| **Song Producer**        | One `song_brief.md` per track — emotional center, album role      |
+| **Lyric Sculptor**       | `lyrics_v1.md` — singable, section-tagged                         |
+| **Style Alchemist**      | `style_directions.md` — groove options matched to catalog winners |
+| **SUNO Engineer**        | `suno_prompt_v1.md` — 8-field package, pre-validated              |
+| **Identity Guardian**    | DNA audit at every major step — warmth, lived insight, no drift   |
+
+Tracks are developed **one at a time** (brief → lyrics → style → SUNO package → next track). No shallow batch lyrics at the end.
+
+### Story, not song list
+
+The orchestrator's job is cohesion:
+
+- **`album_arc.md`** — where the listener enters, what moves, where they land
+- **`track_map.md`** — each song has a **unique role** on that journey
+- **`variation_map.md`** — energy, rhythm, vocal, and palette spread so the album breathes
+- Ideas that are true but **don't serve the sequence** get cut or moved to open questions
+
+Usually **8–16 tracks**; the story decides the count, not a fixed template.
+
+### Stop boundary — and what comes after
+
+**Done when:** every track has `suno_prompt_v1.md`, `album.md` status is `draft-ready`, and `orchestrator_report.md` summarizes the album for your review.
+
+**Not done during orchestration:** SUNO audio, listening notes, final selection, release prep.
+
+Your workflow from there:
+
+1. Read `orchestrator_report.md` — open questions, suggested first track to generate
+2. Review `lyrics_v1.md` and `suno_prompt_v1.md` per track; give feedback via [feedback_dictionary.md](01_artist/feedback_dictionary.md)
+3. Generate **one track at a time** — `/suno run` or copy-paste into [suno.com](https://suno.com)
+4. `/listen` → `/retry` → `/select final` per track
+5. `/album check` again once several tracks have audio
+
+### Quick steps
 
 1. Copy `02_albums/_album_template/` → `02_albums/my-album/`.
-2. Drop raw material in `input/` (lyrics fragments, voice memos transcribed, themes).
+2. Drop your writing in `input/`.
 3. Run **`/orchestrate album`** on `02_albums/my-album/`.
-4. Review lyrics and styles **before** generating audio — orchestrator stops at draft-ready.
-5. Generate **one track at a time** in SUNO.
+4. Review the draft before touching SUNO.
 
-Spec: [album_orchestrator.md](00_system/album_orchestrator.md).
+Full spec: [album_orchestrator.md](00_system/album_orchestrator.md).
 
 ---
 
@@ -197,16 +253,16 @@ Usually 8–16; let the story decide. Orchestrator default is flexible.
 
 ## Troubleshooting
 
-| Problem | Fix |
-|---------|-----|
-| Empty `input/` for orchestrator | Add notes or run `/album seed` first |
-| Agent skips reading files | Name the command explicitly; cite `mandatory_reads.md` |
-| SUNO rejects lyrics | Check sensitive words — see `suno_learnings.md` |
-| `skank` in styles breaks | Use concrete description in Styles; exclusions in Exclude styles |
-| Negative words in Styles | Move to **Exclude styles** — SUNO guide forbids "no dub" in Styles |
-| CLI `SUNO_API_KEY not set` | Copy `.env.example` → `.env` at repo root |
-| Agent uses placeholder DNA | Run `/onboard artist` — empty templates aren't enough |
+| Problem                         | Fix                                                                |
+| ------------------------------- | ------------------------------------------------------------------ |
+| Empty `input/` for orchestrator | Add notes or run `/album seed` first                               |
+| Agent skips reading files       | Name the command explicitly; cite `mandatory_reads.md`             |
+| SUNO rejects lyrics             | Check sensitive words — see `suno_learnings.md`                    |
+| `skank` in styles breaks        | Use concrete description in Styles; exclusions in Exclude styles   |
+| Negative words in Styles        | Move to **Exclude styles** — SUNO guide forbids "no dub" in Styles |
+| CLI `SUNO_API_KEY not set`      | Copy `.env.example` → `.env` at repo root                          |
+| Agent uses placeholder DNA      | Run `/onboard artist` — empty templates aren't enough              |
 
 ---
 
-*Albums may change clothes; the body must remain recognizable.*
+_Albums may change clothes; the body must remain recognizable._
