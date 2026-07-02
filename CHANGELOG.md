@@ -21,6 +21,7 @@ First public distribution of the Markdown-first album studio formerly built as a
 - Cover prompt families genericized (removed album-specific preset names)
 - `03_global_learnings/` and catalog files → empty templates with example rows
 - All agent rules, mandatory reads, and commands updated for generic paths
+- Integrations folder renumbered: `05_integrations/` → **`06_integrations/`**
 
 ### Removed
 
@@ -29,8 +30,8 @@ First public distribution of the Markdown-first album studio formerly built as a
 
 ### Provenance
 
-Built from SUNO Album Studio OS; whitelabeled for distribution.
+Built from Inner Light Tales Studio OS; whitelabeled for distribution.
 
 ### Migration note
 
-If you forked an older private copy: run fresh `git init` for a clean public history. Old `./studio-suno` invocations → `./studio-suno`.
+If you forked an older private copy: run fresh `git init` for a clean public history. Old `./ilt-suno` invocations → `./studio-suno`. CLI path: `06_integrations/suno/`.

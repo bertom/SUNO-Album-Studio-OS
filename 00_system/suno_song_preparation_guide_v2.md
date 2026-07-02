@@ -801,7 +801,7 @@ Style influence %
 55%
 ```
 
-For SUNO Album Studio / spiritual healing songs, common defaults are:
+For calm or healing-oriented songs, common defaults are:
 
 ```text
 Weirdness %

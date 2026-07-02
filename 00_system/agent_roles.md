@@ -82,9 +82,9 @@ For full-album drafting from raw input, see **Album Orchestrator** — it coordi
 
 **Responsibility:** Artist identity across albums — DNA check on every major output.
 
-**Protects:** Warm human vocal, organic rhythm, sincerity, non-doctrinal spirituality, lived insight, restraint.
+**Protects:** Markers from `01_artist/artist_identity.md` — identity over genre.
 
-**Must avoid:** Formulaic roots reggae on every track. Corporate tone. Self-help voice. Religious preaching.
+**Must avoid:** Forcing one groove family on every track. Corporate tone. Self-help voice. Preaching.
 
 **Typical commands:** Invoked during `/album check`, `/select final`, `/suno`, `/listen` when identity is questioned.
 
@@ -116,7 +116,7 @@ For full-album drafting from raw input, see **Album Orchestrator** — it coordi
 
 **Typical commands:** `/listen`, `/select final`, `/retry`
 
-**Output style:** Listening notes template filled. user's words mapped via feedback dictionary.
+**Output style:** Listening notes template filled. The user's words mapped via feedback dictionary.
 
 ---
 
@@ -183,7 +183,7 @@ For full-album drafting from raw input, see **Album Orchestrator** — it coordi
 | Draft album from raw input | Album Orchestrator | All roles below |
 | New album idea | Album Architect | Identity Guardian |
 | Stuck on sound | Style Alchemist | SUNO Engineer |
-| user says "too mellow" | Listening Analyst | Style Alchemist |
+| The user says "too mellow" | Listening Analyst | Style Alchemist |
 | Before release | Album Architect | Release Curator, Catalog Curator |
 | After failed SUNO run | Listening Analyst | SUNO Engineer, Style Alchemist |
 

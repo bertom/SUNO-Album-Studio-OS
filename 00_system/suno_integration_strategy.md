@@ -166,7 +166,7 @@ Document rationale in:
 - `suno_runs.md`
 - `metadata/final_style.md` for finals
 
-See `01_artist/style_reference.md` §12 for album-family ranges.
+See `01_artist/style_reference_summary.md` and `03_global_learnings/style_decision_matrix.md` for family and settings ranges.
 
 ---
 

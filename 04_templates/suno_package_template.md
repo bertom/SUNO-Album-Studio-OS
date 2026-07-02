@@ -119,19 +119,19 @@ I wake up slow
 The light is on the floor
 
 [Chorus]
-Het komt goed
-Het komt goed
-Adem in
-Adem door
+It will be alright
+It will be alright
+Breathe in
+Breathe through
 
 [Outro]
-Het komt goed
+It will be alright
 ```
 
 ### Styles
 
 ```text
-warm acoustic folk with gentle reggae sway, soft bass pulse, light hand percussion, intimate sincere Dutch female vocal, organic room sound, calm and reassuring, space between phrases, gradual warmth in chorus
+warm acoustic folk with gentle sway, soft bass pulse, light hand percussion, intimate sincere female vocal, organic room sound, calm and reassuring, space between phrases, gradual warmth in chorus
 ```
 
 ### More options
@@ -157,5 +157,5 @@ F
 ### Song Title
 
 ```text
-Het komt goed
+It Will Be Alright
 ```

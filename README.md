@@ -112,6 +112,6 @@ Issues and PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Credits
 
-Built from SUNO Album Studio OS; whitelabeled for distribution.
+Built from Inner Light Tales Studio OS; whitelabeled for distribution.
 
 **Changelog:** [CHANGELOG.md](CHANGELOG.md)

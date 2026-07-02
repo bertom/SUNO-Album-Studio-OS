@@ -463,7 +463,7 @@ cd 06_integrations/suno && ./studio-suno wav <track> --run 003 --take a
 
 **Purpose:** Mine released album material into the global catalog — winners, style phrases, settings.
 
-**Input:** Album slug or path (e.g. `02_albums/harvest/`). Optional: single track slug.
+**Input:** Album slug or path (e.g. `02_albums/my-album/`). Optional: single track slug.
 
 **Output:** Proposed updates to `05_catalog/best_suno_outputs.md`, `style_index.md`, and optionally `reusable_style_recipes.md` — **show the user before writing** unless they say "write it".
 
@@ -490,7 +490,7 @@ cd 06_integrations/suno && ./studio-suno wav <track> --run 003 --take a
 
 **Output:** Filled brief in `album_art/cover_prompt_vN.md` + copy-paste **Image prompt** and **Negative prompt** blocks.
 
-**Read:** `01_artist/cover_design_guide.md`, `visual_direction.md`, `album_art/visual_direction.md`, `04_templates/cover_prompt_template.md`, matching family preset (`cover_prompt_template.md` / `cover_prompt_template.md` / `cover_prompt_nature_trust.md` / `cover_prompt_single_photo.md`)
+**Read:** `01_artist/cover_design_guide.md`, `visual_direction.md`, `album_art/visual_direction.md`, `04_templates/cover_prompt_template.md`, matching family preset (`cover_prompt_nature_trust.md` / `cover_prompt_single_photo.md`)
 
 **Update:** `album_art/cover_prompt_vN.md` (new version file)
 

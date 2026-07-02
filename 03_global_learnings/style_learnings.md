@@ -14,9 +14,9 @@ Every prompt should imply one main groove.
 
 ---
 
-## Reggae as sway, not costume
+## Groove as feel, not costume
 
-Movement of truth — offbeat, bass, pulse — not obligatory full roots every track.
+One rhythmic center per song — movement that serves the lyric, not genre cosplay on every track.
 
 ---
 

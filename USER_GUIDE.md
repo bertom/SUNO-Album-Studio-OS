@@ -58,12 +58,12 @@ Deep map: [README.md](README.md#repository-map).
 | 1 Album Seed | Life moment → album question | `/album seed` |
 | 2 Album World | Identity, arc, sound, visual | `/album world` |
 | 3 Brainstorm | Capture everything, no filter | `/brainstorm` |
-| 4 Distillation | Decide, reject, open questions | `/brainstorm distill` |
+| 4 Distillation | Decide, reject, open questions | `/distill brainstorm` |
 | 5 Song Pool | Candidates with roles | `/song pool` |
 | 6 Song Development | One track: brief → lyrics → style | `/song brief`, `/lyrics`, `/style directions` |
 | 7 SUNO Run Cycle | Generate, log, listen, retry | `/suno`, `/suno run`, `/listen`, `/retry` |
 | 8 Final Selection | Pick the keeper | `/select final` |
-| 9 Album Assembly | Cohesion, variation map | `/album check`, `/variation map` |
+| 9 Album Assembly | Cohesion, variation map | `/album check`, `/update track map` |
 | 10 Archive & Learn | Finals + learnings | `/archive track`, learning entries |
 | 11 Release Prep | Pitch, metadata, cover | `/cover prompt`, release templates |
 | 12 Catalog Review | Discography, style index | `/catalog review`, `/backfill catalog` |

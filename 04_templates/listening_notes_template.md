@@ -76,7 +76,7 @@ Role on album, contrast with adjacent tracks, energy tier correct?
 
 ---
 
-## SUNO Album Studio Fit
+## Artist identity fit
 
 DNA check — which markers present or missing?
 
@@ -115,12 +115,12 @@ If reusable: tag for `/extract learning` — worked / failed / pattern.
 
 **First feeling:** Warm but too sleepy — missing body.
 
-**What worked:** Vocal sincerity, Dutch pronunciation, gentle opening image.
+**What worked:** Vocal sincerity, clear diction, gentle opening image.
 
 **What failed:** No rhythmic invitation; floats after chorus one.
 
 **Decision:** retry
 
-**Next prompt move:** Add hand claps, soft reggae offbeat guitar, "embodied groove" — see "too mellow" in feedback dictionary.
+**Next prompt move:** Add hand claps, soft offbeat guitar, "embodied groove" — see "too mellow" in feedback dictionary.
 
-**Learning candidate:** Acoustic-only Styles without pulse → passive on children's calm tracks too.
+**Learning candidate:** Acoustic-only Styles without pulse → passive on calm tracks too.

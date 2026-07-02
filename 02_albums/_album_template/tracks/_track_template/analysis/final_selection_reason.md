@@ -14,7 +14,7 @@ Life beats concept — what made this one **alive**?
 
 
 
-## SUNO Album Studio Fit
+## Artist identity fit
 
 
 

@@ -24,7 +24,7 @@ One sentence — not a manifesto.
 
 
 
-## SUNO Album Studio Body (DNA)
+## Artist body (DNA)
 
 Which DNA markers anchor this project even if genre shifts?
 

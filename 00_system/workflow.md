@@ -6,7 +6,7 @@ The creative cycle for every album. Phases are sequential in intent, but you may
 
 ## Orchestrated Draft (Optional)
 
-For a new album with raw material in `input/`, `/orchestrate album` runs phases 1–6 plus draft assembly and `/album check` — stopping at `suno_prompt_v1.md` per track (no audio). user reviews lyrics and styles, then generates tracks one at a time. Full spec: `00_system/album_orchestrator.md`.
+For a new album with raw material in `input/`, `/orchestrate album` runs phases 1–6 plus draft assembly and `/album check` — stopping at `suno_prompt_v1.md` per track (no audio). The user reviews lyrics and styles, then generates tracks one at a time. Full spec: `00_system/album_orchestrator.md`.
 
 ---
 
