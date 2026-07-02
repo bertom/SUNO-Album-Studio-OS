@@ -6,7 +6,7 @@
 
 ## Artist
 
-SUNO Album Studio
+_[Your artist name]_
 
 ## Status
 
