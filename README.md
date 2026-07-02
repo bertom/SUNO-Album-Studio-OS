@@ -86,8 +86,6 @@ ONBOARDING.md         First-run copy-paste prompt
                             next album (smarter)
 ```
 
-Add screenshots: [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md) · `docs/images/`
-
 ---
 
 ## Requirements

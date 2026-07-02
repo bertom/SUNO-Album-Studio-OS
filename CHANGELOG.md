@@ -10,7 +10,6 @@ First public distribution of the Markdown-first album studio formerly built as a
 
 - Generic `01_artist/` scaffold with **`/onboard artist`** first-run command
 - `USER_GUIDE.md`, `ONBOARDING.md`, `05_catalog/README.md`, `01_artist/README.md`
-- `docs/SCREENSHOTS.md` placeholder for marketing assets
 - `.env.example` for optional SUNO API CLI
 - MIT `LICENSE`
 
