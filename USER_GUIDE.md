@@ -35,6 +35,20 @@ Next: develop one track at a time → **`/suno validate`** → generate in SUNO 
 
 ---
 
+## Start with a sentence
+
+You do not need to memorize phases or commands before you begin. After onboarding, open a chat and talk like you would to a co-writer:
+
+> *"I've got an idea for a song — let's brainstorm."*  
+> *"This chorus line won't leave me alone. Help me turn it into a track."*  
+> *"I dumped notes in `input/` — can we shape an album?"*
+
+The agent reads your studio files and **walks you through the workflow** — brainstorm → brief → lyrics → style → SUNO package → listen → final — handing off between **specialized studio roles** (Song Producer, Lyric Sculptor, Style Alchemist, SUNO Engineer, …) as the work needs it. Everything lands in Markdown in your repo.
+
+Slash commands like `/brainstorm` or `/lyrics` focus a step when you want them. **Plain language works too.**
+
+---
+
 ## How it's organized
 
 ```text

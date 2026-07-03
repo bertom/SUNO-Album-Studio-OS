@@ -24,6 +24,20 @@ Most SUNO creators accumulate prompts and MP3s in folders with no arc, no learni
 - Optional **`studio-suno` CLI** for sunoapi.org — copy-paste still works
 - Optional **Studio Browser** — local page to review lyrics, prompts, and MP3 takes
 
+### Start with a sentence
+
+You do not need to learn the system first. Open the project, start a chat, and talk like you would to a co-writer:
+
+> *"I've got an idea for a song — let's brainstorm."*  
+> *"This chorus line won't leave me alone. Help me turn it into a track."*  
+> *"I dumped a bunch of notes in `input/` — can we shape an album?"*
+
+The agent reads your studio files (`01_artist/`, album folders, workflow rules) and **guides you through the creative workflow** — brainstorm → brief → lyrics → style → SUNO package → listen → final — switching between **specialized studio roles** (Song Producer, Lyric Sculptor, Style Alchemist, SUNO Engineer, …) as the work needs it. You bring the idea; the studio brings structure and keeps everything in Markdown you own.
+
+**First time only:** paste [ONBOARDING.md](ONBOARDING.md) and run **`/onboard artist`** so your identity is on file. After that, one sentence in chat is enough to start a song.
+
+Slash commands like `/brainstorm` or `/lyrics` focus a step when you want — plain language works too.
+
 ## Why it's different
 
 | | Typical SUNO workflow | Album Studio OS |
