@@ -4,6 +4,8 @@ Thin Python CLI for [sunoapi.org](https://docs.sunoapi.org) — reads existing `
 
 Manual copy-paste to the Suno UI still works. This is **opt-in**.
 
+**Prefer a visual review UI?** See [Studio Browser](../studio-browser/README.md) — browse albums, play takes, and write notes in a local web page. Generate/WAV buttons use this same CLI under the hood.
+
 > Generated files on sunoapi.org expire after **15 days**. Download MP3s after runs and WAVs before publishing.
 
 ---

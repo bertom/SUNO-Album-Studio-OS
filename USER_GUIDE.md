@@ -44,7 +44,7 @@ Next: develop one track at a time → **`/suno validate`** → generate in SUNO 
 03_global_learnings/  Cross-album patterns you discover
 04_templates/       Document scaffolds (briefs, cover prompts, etc.)
 05_catalog/         Winners, discography, style index
-06_integrations/    Optional studio-suno CLI (sunoapi.org)
+06_integrations/    Optional studio-suno CLI and Studio Browser (local review UI)
 ```
 
 Deep map: [README.md](README.md#repository-map).
@@ -133,6 +133,25 @@ cd 06_integrations/suno && pip install -r requirements.txt
 ```
 
 Manual copy-paste remains fully supported.
+
+### Optional: Studio Browser *(local review page)*
+
+If you prefer clicking through lyrics, prompts, and MP3 takes instead of opening many Markdown files:
+
+1. Open **Terminal** in Cursor (**Terminal → New Terminal**).
+2. From the repo root:
+   ```bash
+   cd 06_integrations/studio-browser
+   ./studio serve
+   ```
+3. Open **http://127.0.0.1:8787** in your browser.
+4. Press **Ctrl+C** in Terminal when finished.
+
+You need at least one real album under `02_albums/` (copy from `_album_template/` first). The browser reads the same files agents edit — favorites, notes, and status changes write back to Markdown.
+
+**Generate / WAV buttons** need the same `SUNO_API_KEY` setup as the CLI above. Without it, you can still read everything, play local MP3s, and copy prompts to [suno.com](https://suno.com).
+
+Full step-by-step (one-time setup, troubleshooting, empty album list): **[06_integrations/studio-browser/README.md](06_integrations/studio-browser/README.md)**.
 
 ---
 
@@ -234,6 +253,9 @@ Full spec: [album_orchestrator.md](00_system/album_orchestrator.md).
 **Do I need the API?**  
 No. Copy-paste to [suno.com](https://suno.com) is the default path.
 
+**What is Studio Browser?**  
+An optional local web page to browse albums, play MP3 takes, and write listening notes — no cloud account. Start it from Terminal; full steps in [06_integrations/studio-browser/README.md](06_integrations/studio-browser/README.md).
+
 **Are suno.com and sunoapi.org the same?**  
 No. sunoapi.org is a **third-party** API used only by the optional `studio-suno` CLI. Separate signup, separate billing — not linked to your Suno app account.
 
@@ -261,6 +283,8 @@ Usually 8–16; let the story decide. Orchestrator default is flexible.
 | `skank` in styles breaks        | Use concrete description in Styles; exclusions in Exclude styles   |
 | Negative words in Styles        | Move to **Exclude styles** — SUNO guide forbids "no dub" in Styles |
 | CLI `SUNO_API_KEY not set`      | Copy `.env.example` → `.env` at repo root                          |
+| Studio Browser shows no albums    | Copy `_album_template/` → `02_albums/my-album/`; `_` folders are hidden |
+| `./studio serve` permission error | Run `chmod +x 06_integrations/studio-browser/studio` once            |
 | Agent uses placeholder DNA      | Run `/onboard artist` — empty templates aren't enough              |
 
 ---

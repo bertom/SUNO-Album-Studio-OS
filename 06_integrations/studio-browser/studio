@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+SUNO_VENV="$ROOT/../suno/.venv"
+LOCAL_VENV="$ROOT/.venv"
+
+cd "$ROOT"
+
+if [[ -d "$SUNO_VENV" ]]; then
+  # shellcheck disable=SC1091
+  source "$SUNO_VENV/bin/activate"
+elif [[ -d "$LOCAL_VENV" ]]; then
+  # shellcheck disable=SC1091
+  source "$LOCAL_VENV/bin/activate"
+else
+  echo "Creating local venv..."
+  python3 -m venv "$LOCAL_VENV"
+  # shellcheck disable=SC1091
+  source "$LOCAL_VENV/bin/activate"
+  pip install -q -r requirements.txt
+  pip install -q -r ../suno/requirements.txt
+  pip install -q pytest httpx
+fi
+
+export PYTHONPATH="$ROOT:$ROOT/../suno:${PYTHONPATH:-}"
+
+cmd="${1:-serve}"
+shift || true
+
+case "$cmd" in
+  serve)
+    HOST="${STUDIO_HOST:-127.0.0.1}"
+    PORT="${STUDIO_PORT:-8787}"
+    echo "Studio Browser → http://${HOST}:${PORT}"
+    exec python -m uvicorn server.main:app --host "$HOST" --port "$PORT" --reload
+    ;;
+  build)
+    if [[ -d web/node_modules ]]; then
+      (cd web && npm run build)
+    else
+      echo "Run: cd web && npm install && npm run build"
+      exit 1
+    fi
+    ;;
+  test)
+    exec python -m pytest tests/ -v "$@"
+    ;;
+  *)
+    echo "Usage: ./studio [serve|build|test]"
+    exit 1
+    ;;
+esac

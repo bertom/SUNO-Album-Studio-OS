@@ -22,6 +22,7 @@ Most SUNO creators accumulate prompts and MP3s in folders with no arc, no learni
 - A **catalog of winners** that feeds future style decisions
 - **Templates** for briefs, lyrics, SUNO packages, cover prompts, release prep
 - Optional **`studio-suno` CLI** for sunoapi.org — copy-paste still works
+- Optional **Studio Browser** — local page to review lyrics, prompts, and MP3 takes
 
 ## Why it's different
 
@@ -39,6 +40,7 @@ Most SUNO creators accumulate prompts and MP3s in folders with no arc, no learni
 
 - **Album orchestration** — drop any writing in `input/`, get a story-driven draft album through SUNO-ready prompts ([how it works](#album-orchestration))
 - **Validate pre-flight** — `/suno validate` and `./studio-suno validate` before every run
+- **Studio Browser** — optional local UI to review tracks, compare takes, write notes ([setup](06_integrations/studio-browser/README.md))
 - **Catalog backfill** — import existing SUNO albums into your winner index
 - **Cover prompts** — family templates + `/cover prompt` command
 - **Release prep** — metadata, checklists, distribution scaffolds
@@ -110,7 +112,7 @@ Full manual: **[USER_GUIDE.md](USER_GUIDE.md)**
 03_global_learnings/  Patterns, recipes, failures
 04_templates/       Reusable scaffolds
 05_catalog/         Winners and discography
-06_integrations/    Optional studio-suno CLI
+06_integrations/    Optional studio-suno CLI + Studio Browser
 AGENTS.md             Agent entry point
 ONBOARDING.md         First-run copy-paste prompt
 ```
@@ -137,7 +139,8 @@ ONBOARDING.md         First-run copy-paste prompt
 - **Cursor** recommended — or any AI assistant + text editor (for the Markdown studio workflow)
 - **To generate audio**, use one path — they are **not** the same service or linked accounts:
   - **Default:** [suno.com](https://suno.com) — copy-paste prompts from your track files into the Suno UI
-  - **Optional:** [sunoapi.org](https://sunoapi.org) account + API key — for the `studio-suno` CLI only (third-party API, not Suno's official app)
+  - **Optional:** [sunoapi.org](https://sunoapi.org) account + API key — for the `studio-suno` CLI and Studio Browser generate/WAV actions (third-party API, not Suno's official app)
+  - **Optional:** Studio Browser — no extra account; local review only ([instructions](06_integrations/studio-browser/README.md))
 
 You do not need both. Most users only need suno.com.
 

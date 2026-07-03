@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Browser — SUNO Album Studio</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header id="header">
+    <div class="header-left">
+      <button id="btn-home" class="logo" title="All albums">Studio Browser</button>
+      <span id="breadcrumb" class="breadcrumb"></span>
+    </div>
+    <div class="header-right">
+      <input id="search-input" type="search" placeholder="Search lyrics & styles…" />
+      <span id="credits-badge" class="credits" title="sunoapi.org credits">—</span>
+    </div>
+  </header>
+
+  <main id="app">
+    <div id="view-home" class="view">
+      <h1>Albums</h1>
+      <div id="album-filters" class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="active">Active</button>
+        <button class="filter" data-filter="draft-ready">Draft ready</button>
+      </div>
+      <div id="album-grid" class="album-grid"></div>
+    </div>
+
+    <div id="view-album" class="view hidden">
+      <div class="album-layout">
+        <aside id="track-list" class="track-sidebar"></aside>
+        <section id="track-detail" class="track-main">
+          <p class="placeholder">Select a track to review</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <div id="toast" class="toast hidden"></div>
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h3 id="modal-title"></h3>
+      <div id="modal-body"></div>
+      <div class="modal-actions">
+        <button id="modal-cancel" class="btn secondary">Cancel</button>
+        <button id="modal-confirm" class="btn primary">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

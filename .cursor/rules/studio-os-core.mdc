@@ -29,7 +29,7 @@ Markdown-first creative OS for **any musician** — SUNO albums, archive, learni
 03_global_learnings/
 04_templates/
 05_catalog/
-06_integrations/  optional studio-suno CLI
+06_integrations/  optional studio-suno CLI + Studio Browser
 ```
 
 Album slugs: lowercase hyphens (`my-album`, `track-slug`). No `references/` folder — docs live in place.

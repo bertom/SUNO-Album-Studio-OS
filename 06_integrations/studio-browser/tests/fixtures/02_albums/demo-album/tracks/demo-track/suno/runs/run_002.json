@@ -1,0 +1,10 @@
+{
+  "run": "002",
+  "task_id": "task-demo-002",
+  "status": "complete",
+  "prompt": "suno_prompt_v1.md",
+  "takes": {
+    "a": "run002_take_a.mp3",
+    "b": "run002_take_b.mp3"
+  }
+}

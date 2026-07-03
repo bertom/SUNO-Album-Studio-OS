@@ -23,6 +23,7 @@ Cursor: `.cursor/rules/` reinforce the above — core rule always on; SUNO/orche
 | Cover design | `01_artist/cover_design_guide.md` |
 | SUNO preparation | `00_system/suno_song_preparation_guide_v2.md` |
 | SUNO API CLI (optional) | `06_integrations/suno/README.md` |
+| Studio Browser (optional) | `06_integrations/studio-browser/README.md` |
 | User feedback language | `01_artist/feedback_dictionary.md` |
 | Context routing by command | `00_system/mandatory_reads.md` |
 | Style role → family → settings | `03_global_learnings/style_decision_matrix.md` |
