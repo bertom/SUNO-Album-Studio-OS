@@ -48,7 +48,7 @@ Lead delivery, harmonies, group parts, language, sincerity, polish level.
 
 ## Groove
 
-Rhythm body, pulse, movement, reggae sway, percussion, static vs alive.
+Rhythm body, pulse, movement, syncopation, pocket vs float, static vs alive.
 
 ---
 
@@ -113,14 +113,14 @@ If reusable: tag for `/extract learning` — worked / failed / pattern.
 **Prompt version:** suno_prompt_v1.md  
 **Audio:** run002_take_a.wav
 
-**First feeling:** Warm but too sleepy — missing body.
+**First feeling:** Has attitude but the chorus doesn't lift — missing weight.
 
-**What worked:** Vocal sincerity, clear diction, gentle opening image.
+**What worked:** Vocal edge, clear diction, opening image lands.
 
-**What failed:** No rhythmic invitation; floats after chorus one.
+**What failed:** Drums too thin; chorus doesn't open wide enough.
 
 **Decision:** retry
 
-**Next prompt move:** Add hand claps, soft offbeat guitar, "embodied groove" — see "too mellow" in feedback dictionary.
+**Next prompt move:** Push live drums forward, add stacked doubles on chorus, raise Style influence — see feedback dictionary.
 
-**Learning candidate:** Acoustic-only Styles without pulse → passive on calm tracks too.
+**Learning candidate:** Sparse Styles without rhythmic anchor → flat on mid-energy rock tracks.

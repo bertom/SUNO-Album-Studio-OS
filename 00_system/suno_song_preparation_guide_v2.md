@@ -2,17 +2,19 @@
 
 ## Purpose
 
-This guide defines how ChatGPT must prepare input for SUNO.
+This guide defines how agents must prepare input for SUNO.
 
 It does not define musical taste, album philosophy, lyrical themes, artist identity, or fixed style libraries.
 
 Its only purpose is to make sure every SUNO prompt is delivered in a clean, consistent, copyable format that SUNO can interpret well.
 
+**Examples in this guide are illustrative only.** They span different genres and moods so you can see the *format*, not a default aesthetic. When preparing a real song, follow the user's `01_artist/artist_dna.md`, `01_artist/style_reference.md`, song brief, and album palette — not the examples here.
+
 ---
 
 ## Core Rule
 
-Whenever ChatGPT prepares a song for SUNO, the final answer must use this exact structure:
+Whenever an agent prepares a song for SUNO, the final answer must use this exact structure:
 
 1. Lyrics
 2. Styles
@@ -126,7 +128,7 @@ A quiet song inside my chest
 [Chorus]
 Let it rise
 Let it rise
-Love is moving through my life
+Something moving through my life
 ```
 
 Bad:
@@ -150,8 +152,8 @@ Prefer:
 ```text
 I let go
 I breathe in
-I come home
-To the light within
+I come back
+To where I begin
 ```
 
 Avoid:
@@ -162,22 +164,22 @@ I suddenly realize that all the fear I carried was only a shadow created by my o
 
 ### Use repetition intentionally
 
-Repetition helps SUNO create hooks, mantras, choruses, and memorable phrasing.
+Repetition helps SUNO create hooks, choruses, chant sections, and memorable phrasing.
 
 Use repetition when the song needs:
 
-- mantra energy
+- hook energy
 - sing-along energy
-- spiritual emphasis
+- emphasis on a key phrase
 - emotional release
 - dance or groove stability
 
 Example:
 
 ```text
-I let love lead me
-I let love lead me
-I let love lead me home
+I won't look back
+I won't look back
+I won't look back now
 ```
 
 ### Avoid overloading verses
@@ -196,7 +198,7 @@ The bridge should introduce a change:
 - confession
 - turning point
 - quiet breakdown
-- final awakening
+- final escalation
 
 ---
 
@@ -244,11 +246,25 @@ A strong style prompt usually includes:
 - era or recording texture, when useful
 - energy arc, when useful
 
-Example:
+Example (folk / soul):
 
 ```text
-roots reggae with warm acoustic guitar, relaxed offbeat rhythm, soft bass groove, hand claps, small gospel choir responses, sincere male vocal, organic live band feel, hopeful and grounded, gradual uplifting chorus
+warm acoustic folk, brushed drums, upright bass, intimate male vocal, close room mic, reflective verses with a fuller chorus, mid-tempo pocket groove
 ```
+
+Example (indie rock):
+
+```text
+indie rock, crunchy rhythm guitar, live drum kit, melodic bass, raw female lead vocal, garage-room energy, tense verses and explosive chorus
+```
+
+Example (R&B / pop):
+
+```text
+modern R&B, warm synth pads, tight programmed drums, smooth bass, layered harmonies, polished but human vocal, late-night mood, slow build in the bridge
+```
+
+Pick the recipe that matches the song brief and the artist's style families — not a default genre from this guide.
 
 ---
 
@@ -261,13 +277,13 @@ SUNO responds better to concrete words than abstract emotion alone.
 Prefer:
 
 ```text
-warm acoustic guitar, hand claps, upright bass, soft gospel choir, relaxed reggae groove
+warm electric guitar, tight live drums, melodic bass, dry room vocal, mid-tempo groove
 ```
 
 Avoid:
 
 ```text
-deep spiritual awakening energy
+deep cinematic emotional awakening energy
 ```
 
 Abstract feeling may be included, but it should be supported by concrete musical terms.
@@ -275,7 +291,7 @@ Abstract feeling may be included, but it should be supported by concrete musical
 Good:
 
 ```text
-warm acoustic folk, gentle fingerpicked guitar, soft male vocal, intimate room sound, reflective and hopeful
+lo-fi hip-hop, dusty drum loop, muted Rhodes, soft male vocal, tape hiss, late-night and introspective
 ```
 
 ---
@@ -284,22 +300,27 @@ warm acoustic folk, gentle fingerpicked guitar, soft male vocal, intimate room s
 
 ### Genre and rhythm
 
-Useful examples:
+Useful examples (pick what fits the brief — not a fixed palette):
 
 ```text
-roots reggae
-light reggae bounce
 acoustic folk
-soulful pop
-gospel-inspired
-tribal percussion
-world folk
-70s singer-songwriter
-island groove
-nyabinghi-inspired rhythm
-soft rock
-cinematic acoustic
-ambient pop
+indie rock
+alt-pop
+modern R&B
+synth-pop
+lo-fi hip-hop
+country ballad
+punk rock
+post-punk
+dark ambient
+cinematic pop
+Latin groove
+Afrobeat-inspired
+straight 4/4 rock
+half-time trap-adjacent (without trap drums in Styles — use excludes)
+disco-funk bounce
+80s new wave
+90s boom-bap feel
 ```
 
 ### Instruments
@@ -308,21 +329,22 @@ Useful examples:
 
 ```text
 acoustic guitar
-ukulele
-warm bass
-upright bass
-organ
+electric guitar
+synth pads
+808-style sub (describe texture, not genre label alone)
 piano
-hand claps
-tambourine
-soft percussion
-congas
-shakers
-nyabinghi drums
-choir harmonies
-brass accents
+Rhodes
+organ
 strings
-ambient pads
+brass stabs
+live drum kit
+programmed drums
+bass guitar
+upright bass
+hand claps
+percussion loops
+choir harmonies
+ambient textures
 ```
 
 ### Vocal delivery
@@ -330,15 +352,16 @@ ambient pads
 Useful examples:
 
 ```text
-sincere male vocal
-gentle female vocal
-warm group vocals
+intimate close-mic vocal
+powerful belted chorus
+whispered verses
+raspy rock vocal
+smooth R&B vocal
+detached cool vocal
+group chant on chorus
 call-and-response vocals
-small gospel choir
-soft spoken verses
-uplifting chorus vocals
-raw emotional lead vocal
-calm intimate vocal
+spoken-word verses
+double-tracked harmonies
 ```
 
 ### Production feel
@@ -347,14 +370,15 @@ Useful examples:
 
 ```text
 organic live band feel
-warm analog texture
-minimal production
-roomy acoustic sound
-vintage tape warmth
-clean modern mix
-small stage performance
-campfire sing-along feel
-open-air live recording feel
+dry garage-room mix
+polished modern pop production
+lo-fi tape warmth
+minimal and sparse
+wide cinematic mix
+dirty analog saturation
+clean punchy mix
+bedroom recording intimacy
+arena-scale chorus lift
 ```
 
 ### Energy arc
@@ -364,9 +388,10 @@ Useful examples:
 ```text
 starts intimate and grows gradually
 steady groove throughout
-quiet verses with uplifting choruses
-slow build toward a joyful final chorus
-mantra-like repetition with rising energy
+quiet verses with bigger choruses
+slow build toward a final lift
+repetition with rising intensity
+drops to half-time in the bridge
 ```
 
 ---
@@ -401,7 +426,7 @@ Bob Marley style
 Use:
 
 ```text
-classic roots reggae, warm offbeat guitar, relaxed bass groove, spiritual group vocals, organic live band feel
+classic roots reggae, warm offbeat guitar, relaxed bass groove, group call-and-response vocals, organic live band feel
 ```
 
 Instead of:
@@ -435,9 +460,9 @@ Use the **translated musical recipe** instead. Write what those labels *mean* in
 
 | Internal shorthand (file headers only) | Put this in Styles instead |
 |----------------------------------------|----------------------------|
-| Intimate Acoustic family | fingerpicked nylon guitar, close room mic, soft brushed drums, warm vocal, gentle pulse, tape warmth |
-| Live Band Pulse family | live drums forward, warm electric bass, rhythm guitar, room ambience, pocket groove, sincere vocal |
-| Artist DNA / warmth | organic live band feel, analog tape warmth, human timing, warm sincere vocal, discovered performance not overproduced |
+| _[Family A — e.g. close acoustic]_ | fingerpicked guitar, close room mic, soft percussion, intimate vocal, gentle pulse, tape warmth |
+| _[Family B — e.g. live band]_ | live drums forward, warm bass, rhythm guitar, room ambience, pocket groove, direct vocal |
+| _[Artist DNA tag from style reference]_ | translate to instruments, vocal, production, and groove — never paste the label itself |
 
 **Where studio context belongs:** HTML comment at top of `suno_prompt_vN.md`, `style_directions.md`, change logs, listening notes — not inside fenced blocks.
 
@@ -524,7 +549,7 @@ or
 F
 ```
 
-If the user has not specified a gender, choose the gender that best supports the song.
+If the user has not specified a gender, choose the gender that best supports the song and matches `01_artist/artist_identity.md` when available.
 
 For group songs, choose the lead vocal gender and describe the group vocals in Styles.
 
@@ -539,7 +564,7 @@ M
 Styles:
 
 ```text
-warm male lead vocal with mixed group choir responses
+male lead vocal with stacked gang vocals on the chorus
 ```
 
 ---
@@ -568,13 +593,13 @@ For most serious songs:
 15%
 ```
 
-For mantra, tribal, playful, or experimental songs:
+For repetition-heavy, playful, or experimental songs:
 
 ```text
 25–40%
 ```
 
-For album-consistent emotional songs:
+For album-consistent songs (tight cohesion across tracks):
 
 ```text
 10–20%
@@ -643,11 +668,11 @@ Avoid subtitles unless the user explicitly wants them.
 
 ---
 
-## ChatGPT Behavior Rules
+## Agent Behavior Rules
 
 ### Always output SUNO input cleanly
 
-When the user asks for a SUNO-ready song, ChatGPT must provide the template only.
+When the user asks for a SUNO-ready song, the agent must provide the template only.
 
 No explanations before or after unless the user asks for reasoning.
 
@@ -667,7 +692,7 @@ Put delivery and sound direction in Styles.
 
 This guide does not contain a fixed style library.
 
-ChatGPT may create a style prompt based on the user’s intent, but it must describe the sound concretely.
+The agent may create a style prompt based on the user's intent, song brief, and artist style reference — but it must describe the sound concretely.
 
 ### Preserve user lyrics when requested
 
@@ -675,7 +700,7 @@ If the user provides lyrics and asks only for formatting, do not rewrite the lyr
 
 ### Improve silently when appropriate
 
-If user lyrics are too long, unsingable, or structurally unclear, ChatGPT may lightly shape them into SUNO-friendly form while preserving the meaning.
+If user lyrics are too long, unsingable, or structurally unclear, the agent may lightly shape them into SUNO-friendly form while preserving the meaning.
 
 ### Ask only when required
 
@@ -712,7 +737,7 @@ It should be shorter, more repeated, and more memorable than the verses.
 A hook can be:
 
 - a repeated phrase
-- a mantra
+- a chant or slogan
 - a question
 - a short declaration
 - a rhythmically satisfying line
@@ -720,10 +745,9 @@ A hook can be:
 Example:
 
 ```text
-Love in my heart
-Peace in my mind
-Light in my body
-One step at a time
+Don't wait up
+Don't wait up
+I'm already gone
 ```
 
 ### Keep style prompts compact
@@ -739,13 +763,13 @@ SUNO can blend genres, but too many competing styles can weaken the result.
 Good:
 
 ```text
-roots reggae with gospel choir responses and acoustic folk warmth
+indie rock with synth bass and stacked gang vocals on the chorus
 ```
 
 Risky:
 
 ```text
-roots reggae, techno, medieval folk, flamenco, cinematic orchestral, punk, ambient jazz
+indie rock, techno, medieval folk, flamenco, cinematic orchestral, punk, ambient jazz
 ```
 
 ### Use one rhythmic center
@@ -755,11 +779,12 @@ Every prompt should imply one main groove.
 Examples:
 
 ```text
-relaxed offbeat reggae groove
-steady tribal percussion
-slow gospel sway
-gentle acoustic folk pulse
-mid-tempo soul groove
+mid-tempo 4/4 rock groove
+syncopated funk pocket
+half-time trap-adjacent swing (describe drums, not genre alone)
+slow ballad sway
+four-on-the-floor dance pulse
+driving punk downstrokes
 ```
 
 ### Use one emotional center
@@ -769,24 +794,25 @@ Every song should have one main emotional direction.
 Examples:
 
 ```text
-hopeful and grounded
+defiant and restless
 joyful and communal
 quiet and reflective
-reverent but warm
+tense and unresolved
 playful and bright
-melancholic but healing
+melancholic but tender
+cold and detached
 ```
 
 ---
 
 ## Recommended Defaults
 
-When the user gives no technical preferences, use:
+When the user gives no technical preferences, use values that match the song brief and `01_artist/style_reference.md` when available. If nothing else is known:
 
 ```text
 Vocal Gender
 
-M
+M or F — whichever fits the brief and artist identity
 ```
 
 ```text
@@ -801,12 +827,12 @@ Style influence %
 55%
 ```
 
-For calm or healing-oriented songs, common defaults are:
+When the brief calls for tight control (release-ready, album cohesion, minimal surprise):
 
 ```text
 Weirdness %
 
-15–25%
+10–20%
 ```
 
 ```text
@@ -815,59 +841,56 @@ Style influence %
 60–70%
 ```
 
-Use higher Style influence when consistency matters across an album.
+Use higher Style influence when consistency matters across an album. Use lower Weirdness for precision; raise it when the brief asks for surprise or experimentation.
 
 ---
 
 ## Output Example
 
+Illustrative only — an indie-pop song shape. Replace content with the user's lyrics, style families, and brief.
+
 ### Lyrics
 
 ```text
 [Verse 1]
-I was walking through the morning
-With a shadow in my chest
-Then the light came through the window
-And my heart began to rest
+I was walking through the city
+With a weight I couldn't name
+Then the noise fell away for a second
+And I knew I couldn't stay the same
 
 [Chorus]
-Love in my heart
-Peace in my mind
-I take one step
-One step at a time
+I'm not going back
+I'm not going back
+I'm not going back to before
 
 [Verse 2]
-I was holding on to worry
-Like a stone inside my hand
-Then I opened up my fingers
-And I finally understand
+Every version that I tried to be
+Was someone else's open door
+I'm done performing what they wanted
+I know what I'm fighting for
 
 [Chorus]
-Love in my heart
-Peace in my mind
-I take one step
-One step at a time
+I'm not going back
+I'm not going back
+I'm not going back to before
 
 [Bridge]
-I do not need to carry
-What was never mine to hold
+Let the old story end right here
 
 [Final Chorus]
-Love in my heart
-Peace in my mind
-I take one step
-One step at a time
+I'm not going back
+I'm not going back
+I'm not going back to before
 
 [Outro]
-One step
-One step
-One step at a time
+Not going back
+Not going back
 ```
 
 ### Styles
 
 ```text
-warm acoustic roots reggae, relaxed offbeat guitar, soft bass groove, hand claps, small gospel choir responses, sincere male lead vocal, organic live band feel, hopeful and grounded, quiet verses with uplifting choruses
+indie pop, jangly electric guitar, live drums with tight snare, melodic bass, stacked female lead vocal with doubles on chorus, bright room mix, defiant and forward-moving, verses lean and chorus opens wide
 ```
 
 ### More options
@@ -880,7 +903,7 @@ EDM, trap, metal, heavy autotune, harsh synths, cinematic trailer music
 
 ### Vocal Gender
 
-M
+F
 
 ### Weirdness %
 
@@ -888,17 +911,17 @@ M
 
 ### Style influence %
 
-65%
+60%
 
 ### Song Title
 
 ```text
-One Step at a Time
+Not Going Back
 ```
 
 ---
 
-## Final Instruction For ChatGPT
+## Final Instruction For Agents
 
 Whenever preparing SUNO input, deliver clean copy-ready blocks in the required format.
 
@@ -906,7 +929,7 @@ Do not include commentary inside the SUNO fields.
 
 Do not rely on artist references.
 
-Use concrete musical language.
+Use concrete musical language matched to the user's brief and artist files — not a default genre from this guide.
 
 Use structure tags.
 

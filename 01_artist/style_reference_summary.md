@@ -12,8 +12,8 @@ Catalog winners: `05_catalog/best_suno_outputs.md`
 
 | Family | Feel in one line | Typical roles | Key instruments |
 |--------|------------------|---------------|-----------------|
-| _[Family A]_ | _[e.g. close, fingerpicked, room mic]_ | opener, healing | acoustic guitar, soft percussion |
-| _[Family B]_ | _[e.g. drums forward, live room]_ | mantra, peak | drums, bass, electric rhythm |
+| _[Family A]_ | _[e.g. close, sparse, room mic]_ | opener, invitation | _[your instruments]_ |
+| _[Family B]_ | _[e.g. drums forward, live room]_ | build, peak | _[your instruments]_ |
 | _[Family C]_ | _[optional]_ | _[roles]_ | _[instruments]_ |
 
 ## Vocal default

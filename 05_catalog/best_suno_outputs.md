@@ -28,7 +28,7 @@ You haven't logged winners yet. That's normal on day one.
 
 | Track | Audio ref | Style family | Weirdness / SI | Why it won | Prompt ref |
 |-------|-----------|--------------|----------------|------------|------------|
-| _[example — replace]_ | _[path]_ | _[Intimate Acoustic]_ | _[W 40 / SI 75]_ | _[warm vocal, pocket groove]_ | _[path]_ |
+| _[example — replace]_ | _[path]_ | _[Family A]_ | _[W 40 / SI 75]_ | _[pocket groove, vocal character]_ | _[path]_ |
 
 ---
 

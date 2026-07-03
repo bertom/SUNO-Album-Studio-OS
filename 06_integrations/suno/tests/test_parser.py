@@ -18,16 +18,16 @@ LIMITS = {"prompt_max": 5000, "style_max": 1000, "title_max": 100}
 class TestParserTemplateTrack(unittest.TestCase):
     def test_parses_title_and_settings(self) -> None:
         prompt = parse_prompt_file(TEMPLATE_PROMPT)
-        self.assertEqual(prompt.title, "Hold It Gentle")
-        self.assertEqual(prompt.vocal_gender, "M")
-        self.assertAlmostEqual(prompt.weirdness_pct, 22.0)
-        self.assertAlmostEqual(prompt.style_influence_pct, 68.0)
+        self.assertEqual(prompt.title, "Don't Wait Up")
+        self.assertEqual(prompt.vocal_gender, "F")
+        self.assertAlmostEqual(prompt.weirdness_pct, 18.0)
+        self.assertAlmostEqual(prompt.style_influence_pct, 62.0)
 
     def test_parses_lyrics_with_sections(self) -> None:
         prompt = parse_prompt_file(TEMPLATE_PROMPT)
         self.assertIn("[Verse 1]", prompt.lyrics)
-        self.assertIn("Hold it gentle", prompt.lyrics)
-        self.assertIn("fingerpicked nylon guitar", prompt.styles)
+        self.assertIn("Don't wait up", prompt.lyrics)
+        self.assertIn("crunchy rhythm guitar", prompt.styles)
 
     def test_validates_clean(self) -> None:
         prompt = parse_prompt_file(TEMPLATE_PROMPT)
@@ -39,15 +39,15 @@ class TestParserTemplateTrack(unittest.TestCase):
         payload = to_api_payload(prompt, model="V4_5ALL", callback_url="https://localhost/noop")
         self.assertTrue(payload["customMode"])
         self.assertFalse(payload["instrumental"])
-        self.assertEqual(payload["title"], "Hold It Gentle")
-        self.assertEqual(payload["vocalGender"], "m")
-        self.assertEqual(payload["weirdnessConstraint"], 0.22)
-        self.assertEqual(payload["styleWeight"], 0.68)
+        self.assertEqual(payload["title"], "Don't Wait Up")
+        self.assertEqual(payload["vocalGender"], "f")
+        self.assertEqual(payload["weirdnessConstraint"], 0.18)
+        self.assertEqual(payload["styleWeight"], 0.62)
         self.assertIn("[Verse 1]", payload["prompt"])
 
     def test_rejects_studio_shorthand_in_styles(self) -> None:
         prompt = parse_prompt_file(TEMPLATE_PROMPT)
-        prompt.styles = "warm acoustic, Family-like groove"
+        prompt.styles = "indie rock, Family-like groove"
         errors = validate_prompt(prompt, LIMITS)
         self.assertTrue(any("SUNO cannot know" in e for e in errors))
 

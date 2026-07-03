@@ -92,7 +92,7 @@ The CLI appends these entries automatically. Manual runs: copy the template from
 06_integrations/suno/
   README.md
   request_schema.md     — map studio fields → API fields
-  ilt_suno/               — Python CLI
+  studio_suno/            — Python CLI
   config.example.yaml
 ```
 

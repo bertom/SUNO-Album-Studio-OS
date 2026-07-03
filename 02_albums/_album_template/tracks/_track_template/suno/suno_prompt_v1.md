@@ -1,6 +1,6 @@
 # SUNO Prompt v1
 
-<!-- track: example-track | prompt: v1 | date: template | hypothesis: validation fixture -->
+<!-- track: example-track | prompt: v1 | date: template | hypothesis: validation fixture — replace content per track -->
 
 See `04_templates/suno_package_template.md` for structure.
 
@@ -8,21 +8,21 @@ See `04_templates/suno_package_template.md` for structure.
 
 ```text
 [Verse 1]
-Morning light on the kitchen floor
-Coffee steam and an open door
+City lights on the dashboard glass
+Radio static, going nowhere fast
 Nothing fancy, nothing more
-Just this life I'm living for
+Just this night I'm driving for
 
 [Chorus]
-Hold it gentle, hold it true
-Every small thing getting through
-Hold it gentle, me and you
+Don't wait up
+Don't wait up
+I'm already gone
 ```
 
 ### Styles
 
 ```text
-intimate acoustic folk, fingerpicked nylon guitar, soft brushed drums, warm male vocal, close room mic, gentle pulse, analog tape warmth, sincere conversational delivery
+indie rock, crunchy rhythm guitar, live drum kit, melodic bass, raw female lead vocal, garage-room energy, tense verses and explosive chorus
 ```
 
 ### More options
@@ -35,18 +35,18 @@ EDM, trap, electronic dance, synth pop, heavy autotune, cinematic trailer, gloss
 
 ### Vocal Gender
 
-M
+F
 
 ### Weirdness %
 
-22%
+18%
 
 ### Style influence %
 
-68%
+62%
 
 ### Song Title
 
 ```text
-Hold It Gentle
+Don't Wait Up
 ```

@@ -12,7 +12,9 @@ Sensible defaults — edit to match your voice.
 
 ## Tone
 
-- Warm, direct, embodied — not self-help, not preaching.
+Defaults below — **edit to match your voice** after onboarding.
+
+- Direct, embodied — not self-help, not preaching (unless that *is* your voice).
 - Questions welcome; answers optional.
 - Avoid moralizing and forced profundity.
 

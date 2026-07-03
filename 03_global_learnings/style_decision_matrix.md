@@ -14,17 +14,17 @@ Winners with W/SI: `05_catalog/best_suno_outputs.md`
 
 | Album role | Energy | Starting family | Weirdness | Style influence | Catalog anchor(s) |
 |------------|--------|-----------------|-----------|-----------------|-------------------|
-| Opener / invitation | low–mid | Intimate Acoustic *(example — replace)* | 10–25% | 55–70% | _[your winner when logged]_ |
-| Boundary / decision | mid, firm | Live Band Pulse *(example)* | 15–35% | 60–75% | _[your winner]_ |
-| Mantra / consciousness | mid | Live Band Pulse *(example)* | 25–45% | 65–78% | _[your winner]_ |
-| Prophetic / still | low–mid | Intimate Acoustic *(example)* | 30–45% | 70–78% | _[your winner]_ |
-| Joy / movement / dance | mid–high | Collective Groove *(example)* | 45–60% | 74–82% | _[your winner]_ |
-| Soft healing / integration | low | Intimate Acoustic *(example)* | 35–50% | 72–80% | _[your winner]_ |
-| Mirror / confrontation | mid–high, sharp | Raw Live *(example)* | 55–65% | 80–85% | _[your winner]_ |
-| Ecstatic peak / closer | high | Collective Groove *(example)* | 55–65% | 78–84% | _[your winner]_ |
-| Gentle / child-safe | low | Acoustic / Soft *(example)* | 10–20% | 55–70% | _[your winner]_ |
+| Opener / invitation | low–mid | _[Family A — e.g. sparse / intimate]_ | 10–25% | 55–70% | _[your winner when logged]_ |
+| Boundary / decision | mid, firm | _[Family B — e.g. live band / punch]_ | 15–35% | 60–75% | _[your winner]_ |
+| Hook / chant track | mid | _[Family B or C]_ | 25–45% | 65–78% | _[your winner]_ |
+| Stillness / weight | low–mid | _[Family A]_ | 30–45% | 70–78% | _[your winner]_ |
+| Joy / movement / dance | mid–high | _[Family C — e.g. groove / collective]_ | 45–60% | 74–82% | _[your winner]_ |
+| Quiet landing / integration | low | _[Family A or E — e.g. soft / sparse]_ | 35–50% | 72–80% | _[your winner]_ |
+| Mirror / confrontation | mid–high, sharp | _[Family D — e.g. raw / aggressive]_ | 55–65% | 80–85% | _[your winner]_ |
+| Peak / closer | high | _[Family C or D]_ | 55–65% | 78–84% | _[your winner]_ |
+| Gentle / child-safe | low | _[Family E — e.g. soft / minimal]_ | 10–20% | 55–70% | _[your winner]_ |
 
-Replace example family names with yours from `01_artist/style_reference_summary.md`.
+Replace family placeholders with yours from `01_artist/style_reference_summary.md`. Album roles are examples — name roles that fit *your* albums.
 
 ---
 

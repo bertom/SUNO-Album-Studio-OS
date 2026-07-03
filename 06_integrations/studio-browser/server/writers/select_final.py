@@ -58,7 +58,7 @@ def select_final(
 
 ## Artist Fit
 
-{artist_fit or 'Warm, sincere, organic — artist identity recognizable.'}
+{artist_fit or 'Artist DNA markers from identity files — recognizable across genre clothes.'}
 
 ## Comparison Summary
 

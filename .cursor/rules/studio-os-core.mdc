@@ -46,6 +46,6 @@ Album slugs: lowercase hyphens (`my-album`, `track-slug`). No `references/` fold
 
 ## Protect / avoid
 
-Read from `01_artist/artist_identity.md` after onboarding. Typical defaults: warmth, sincerity, organic instruments, lived insight.
+Read from `01_artist/artist_identity.md` after onboarding — the user's Protect and Avoid lists, not a baked-in aesthetic.
 
-Avoid: genre cosplay, moralizing, self-help tone, synthetic gloss, over-engineering the repo.
+Until onboarding: avoid genre cosplay, moralizing, self-help tone, synthetic gloss, over-engineering the repo.

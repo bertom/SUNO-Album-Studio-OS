@@ -60,8 +60,8 @@ When the user uses a slash command (e.g. `/suno`, `/listen`), follow the spec in
 
 ### What to Protect
 
-Defined by the user in `01_artist/artist_identity.md` — typically warmth, sincerity, human timing, organic instruments, emotional truth.
+Defined by the user in `01_artist/artist_identity.md` — read their Protect list every session. Do not assume a default aesthetic.
 
 ### What to Avoid
 
-Defined by the user in `01_artist/artist_identity.md` — typically genre cosplay, moralizing, synthetic gloss, forced profundity.
+Defined by the user in `01_artist/artist_identity.md` — read their Avoid list every session. Common examples (only if the user has not onboarded yet): genre cosplay, moralizing, synthetic gloss, forced profundity.

@@ -83,7 +83,7 @@ M
 
 15%
 
-**Document rationale in file header.** Typical ranges: 10–25% precision songs, 35–60% joyful collective, 15–30% album-consistent roots.
+**Document rationale in file header.** Typical ranges: 10–25% precision songs, 35–60% high-variation / playful tracks, 15–30% album-consistent.
 
 ---
 
@@ -111,27 +111,28 @@ M
 
 ## Example Minimal Package
 
+Illustrative only — indie-pop shape. Replace with the track's lyrics, brief, and artist style families.
+
 ### Lyrics
 
 ```text
 [Verse 1]
 I wake up slow
-The light is on the floor
+The city hums outside my door
 
 [Chorus]
-It will be alright
-It will be alright
-Breathe in
-Breathe through
+I'm not going back
+I'm not going back
+I'm not going back to before
 
 [Outro]
-It will be alright
+Not going back
 ```
 
 ### Styles
 
 ```text
-warm acoustic folk with gentle sway, soft bass pulse, light hand percussion, intimate sincere female vocal, organic room sound, calm and reassuring, space between phrases, gradual warmth in chorus
+indie pop, jangly electric guitar, live drums with tight snare, melodic bass, stacked female lead vocal with doubles on chorus, bright room mix, defiant and forward-moving, verses lean and chorus opens wide
 ```
 
 ### More options
@@ -157,5 +158,5 @@ F
 ### Song Title
 
 ```text
-It Will Be Alright
+Not Going Back
 ```

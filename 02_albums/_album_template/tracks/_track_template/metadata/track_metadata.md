@@ -31,7 +31,7 @@ final_suno_prompt: suno/final_suno_fields.md
 album_role:
 energy:
 rhythm:
-ilt_dna:
+artist_dna:
   - 
 ```
 

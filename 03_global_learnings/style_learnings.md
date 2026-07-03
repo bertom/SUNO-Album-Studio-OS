@@ -28,7 +28,7 @@ Musically alive imperfect version beats conceptually correct dead version.
 
 ## Album clothes vs artist body
 
-Albums may shift folk / soul / gospel / children's — preserve warm vocal, organic rhythm, sincerity.
+Albums may shift genre, production era, or mood — preserve the artist's DNA markers from `01_artist/artist_identity.md` (vocal identity, rhythmic feel, emotional truth, etc.). What stays is defined by the artist, not this repo.
 
 ---
 

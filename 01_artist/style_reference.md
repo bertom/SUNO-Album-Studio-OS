@@ -19,7 +19,7 @@
 
 **Vocal:** _[from artist_identity.md]_
 
-**Typical album roles:** opener, soft healing, closer
+**Typical album roles:** opener, quiet landing, closer
 
 **Exclude (add to every SUNO package in this family):** _[e.g. EDM, trap, heavy autotune, cinematic trailer]_
 
@@ -35,7 +35,7 @@
 
 **Vocal:** _[delivery notes]_
 
-**Typical album roles:** mantra, build, peak
+**Typical album roles:** build, peak, hook track
 
 **Exclude:** _[list]_
 

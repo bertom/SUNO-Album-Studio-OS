@@ -13,7 +13,7 @@ Translate unstructured human input into a **cohesive draft album**:
 - One clear **theme** and **story** across the sequence — not a random song collection
 - **One album identity** with **variety** in energy, rhythm, vocal treatment, and sonic clothes
 - Every track has a distinct **role** on the journey; no two tracks doing the same job
-- **artist DNA** present throughout — warm, lived, organic, sincere
+- **Artist DNA** present throughout — read `01_artist/artist_dna.md` and `artist_identity.md`; protect markers stay recognizable across genre clothes
 - Full **traceability**: brainstorms, conclusions, learnings, and decisions documented as you go
 - Every track ready for user's review at the SUNO prompt stage
 
@@ -354,7 +354,7 @@ When changing role, state it in one line:
 
 At Identity Guardian checkpoints:
 
-> *Identity Guardian audit — album world complete. Holds: warmth, lived insight. Watch: track 4 and 7 share mid-energy groove — differentiate in style directions.*
+> *Identity Guardian audit — album world complete. Holds: [2–3 protect words from artist_identity.md]. Watch: track 4 and 7 share mid-energy groove — differentiate in style directions.*
 
 ---
 

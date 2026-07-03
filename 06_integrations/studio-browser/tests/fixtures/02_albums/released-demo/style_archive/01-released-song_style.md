@@ -3,7 +3,7 @@
 ### Styles
 
 ```text
-warm acoustic folk, intimate male vocal, fingerpicked guitar
+indie rock, crunchy rhythm guitar, live drums, raw female vocal, garage-room mix
 ```
 
 **Weirdness:** 20%

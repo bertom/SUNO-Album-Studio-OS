@@ -8,11 +8,11 @@ Do not use project shorthand (`Family-like`) inside SUNO fenced fields — trans
 
 ## Template recipe *(example — replace)*
 
-**Tag:** `[Intimate Acoustic]` *(example)*
+**Tag:** `_[Family A — your name]_` *(example)*
 
 **Styles block (sketch):**
 ```text
-acoustic fingerpicked guitar, close room mic, soft brushed drums, warm male vocal, intimate delivery, tape warmth, slow gentle pulse
+acoustic fingerpicked guitar, close room mic, soft brushed drums, intimate vocal delivery, tape warmth, slow gentle pulse
 ```
 
 **Exclude:**

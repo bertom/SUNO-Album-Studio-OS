@@ -62,7 +62,7 @@ Low / mid / high — plus texture words (e.g. "calm authority," "embodied joy," 
 
 ## Rhythm / Groove
 
-One rhythmic center. Examples: gentle sway, one-drop, hand-clap pulse, ceremonial chant.
+One rhythmic center. Examples: straight 4/4 pocket, half-time swing, four-on-the-floor pulse, syncopated funk, sparse half-time breathe.
 
 ---
 
@@ -74,7 +74,7 @@ Lead gender preference, delivery mode, group vocal needs. Link to `01_artist/voc
 
 ## artist DNA To Preserve
 
-Which 2–3 DNA markers must survive genre clothes? (warm vocal, bass movement, call-response, etc.)
+Which 2–3 DNA markers must survive genre clothes? (e.g. dry vocal, bass movement, stacked harmonies, distorted guitar texture — from `artist_identity.md`)
 
 ---
 

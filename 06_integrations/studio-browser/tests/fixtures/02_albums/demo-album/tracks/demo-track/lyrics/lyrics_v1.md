@@ -1,8 +1,10 @@
 # Lyrics v1
 
 [Verse 1]
-Morning light on the kitchen floor
-Coffee steam and an open door
+City lights on the dashboard glass
+Radio static, going nowhere fast
 
 [Chorus]
-Hold it gentle, hold it true
+Don't wait up
+Don't wait up
+I'm already gone
