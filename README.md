@@ -6,6 +6,10 @@ SUNO gives you songs. It doesn't give you a *body of work*, a recognizable ident
 
 > Albums may change clothes; the body must remain recognizable.
 
+![SUNO Album Studio OS — repo, Studio Browser, and AI chat](docs/images/studio-browser-screenshot.png)
+
+*Markdown files in your repo, optional [Studio Browser](06_integrations/studio-browser/README.md) for albums and takes, AI chat as your co-writer.*
+
 ---
 
 ## The problem
